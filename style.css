@@ -26,7 +26,7 @@ body {
   }
   hr{
   
-    border: dotted #EAF6F6 6px;
+    border: dotted #D2DDDD 6px; /* #EAF6F6 */
     border-bottom: none;
     width: 4%;
     margin: 100px auto;
@@ -35,7 +35,7 @@ body {
   a{
     color: #11999E;
     font-family: 'Montserrat', sans-serif;
-    margin: 10px 20px; /* 10px top/bottom and 20px left/right */
+    margin: 10px 20px; 
     text-decoration: none;
   }
   a:hover{
@@ -46,10 +46,7 @@ body {
     padding-top: 100px;
     position: relative;
   }
-  
-  .middle_contaner{
-  
-  }
+
   
   .pro {
     text-decoration: underline;
@@ -73,32 +70,46 @@ body {
       width: 30%;
       margin: auto;
     }
-  
-  .experience_row, .education_row, .project_row, .extra_row{
-  width: 65%; /* width: 50%;  */
+
+  .experience_row1, .experience_row2,.experience_row3, .education_row, .project_row, .extra_row{
+  width: 65%; 
   margin: 100px auto 100px auto;
   text-align: left;
   line-height: 2;
   }
+
   .code_image{
     width: 5%;
     float: left;
     margin-right: 30px;
-  
+    margin-top: -15px;
   }
-  .business{
-  width: 15%; /* it was 25% */
+  .robot_image{
+    width: 5%;
+    float: left;
+    margin-right: 30px;
+    margin-top: -15px;
+  }
+  .git_image{
+    width: 5%;
+    float: left;
+    margin-right: 30px;
+    margin-top: -10px;
+  }
+
+  .business_image{
+  width: 15%; 
   float:right;
   margin-left: 30px;
   }
   .contact_message{
     width: 40%;
-    margin: 40px auto 60px; /*top 40 right n left 0 and bottom 60 */
+    margin: 40px auto 60px;
   }
   
   .bottom_container{
     background-color: #66BFBF;
-    padding: 50px 0 20px; /*50 top 0 right n left 20 bottom*/
+    padding: 50px 0 20px; 
     line-height: 2;
   }
   .bottom_author{
